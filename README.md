@@ -4,6 +4,23 @@
 
 ---
 
+## Screenshots
+
+### 💰 CFO Dashboard
+![CFO Dashboard](docs/cfo.png)
+
+### ⚙️ COO Dashboard
+![COO Dashboard — KPIs](docs/coo_1.png)
+![COO Dashboard — Charts](docs/coo_2.png)
+
+### ⭐ CS Dashboard
+![CS Dashboard](docs/cs.png)
+
+### 🏪 Marketplace Dashboard
+![Marketplace Dashboard](docs/marketplace.png)
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
