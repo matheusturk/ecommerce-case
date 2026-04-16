@@ -83,6 +83,18 @@ def marketplace_page() -> rx.Component:
         # ── Filtro de data ────────────────────────────────────────────────
         date_filter(),
 
+        # ── Nota de referência de data ───────────────────────────────────────
+        rx.box(
+            rx.text(
+                "📅 Filtro aplicado sobre a data de compra do pedido (order_purchase_timestamp)",
+                font_size="11px",
+                color="#475569",
+            ),
+            margin_top="-20px",
+            margin_bottom="20px",
+            padding="0 4px",
+        ),
+
         # ── KPI Cards ────────────────────────────────────────────────────
         rx.cond(
             DashboardState.loading,
